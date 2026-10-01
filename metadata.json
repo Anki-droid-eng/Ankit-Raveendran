@@ -1,0 +1,6 @@
+{
+  "name": "Athlete Fuel Planner",
+  "description": "Calculate daily calorie and macronutrient targets based on Mifflin-St Jeor BMR and activity level, then track food against your athlete goals.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,61 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --bg-page: #EEF2F4;
+    --bg-surface: #FFFFFF;
+    --bg-subtle: #F5F8FA;
+    --border-color: #D3DCE2;
+    --border-subtle: #E2E8F0;
+    --text-primary: #111827;
+    --text-secondary: #4B5563;
+    --text-muted: #6B7280;
+    --teal-brand: #0F6B6B;
+    --teal-hover: #0C5555;
+    --teal-subtle: #E6F3F3;
+    --amber-brand: #D98200;
+    --amber-subtle: #FEF6E8;
+    --violet-brand: #8A5CF5;
+    --violet-subtle: #F5F1FD;
+    --warning-red: #DC2626;
+    --warning-subtle: #FEE2E2;
+  }
+
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg-page: #0F1518;
+      --bg-surface: #182226;
+      --bg-subtle: #1F2C32;
+      --border-color: #2D3D45;
+      --border-subtle: #25333A;
+      --text-primary: #F1F5F9;
+      --text-secondary: #CBD5E1;
+      --text-muted: #94A3B8;
+      --teal-brand: #179696;
+      --teal-hover: #1EBABA;
+      --teal-subtle: #12282B;
+      --amber-brand: #F2A900;
+      --amber-subtle: #2C2109;
+      --violet-brand: #9D75F7;
+      --violet-subtle: #241A3A;
+      --warning-red: #EF4444;
+      --warning-subtle: #381A1D;
+    }
+  }
+
+  body {
+    background-color: var(--bg-page);
+    color: var(--text-primary);
+    font-family: 'Barlow', system-ui, -apple-system, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    min-height: 100vh;
+  }
+}
+
+.font-condensed {
+  font-family: 'Barlow Condensed', sans-serif;
+}
+
+.font-body {
+  font-family: 'Barlow', sans-serif;
+}
